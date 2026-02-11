@@ -37,7 +37,7 @@ services:
     container_name: water_backend
     restart: unless-stopped
     ports:
-      - "8000:8000"
+      - "9090:8000"
     env_file: .env
     environment:
       DB_HOST: postgres
